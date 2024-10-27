@@ -15,4 +15,4 @@ docker exec -it clickhouse-server clickhouse-client
 
 # Установка пакетов
 
-pip install requirements.txt
+pip install -r requirements.txt
