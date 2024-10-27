@@ -5,9 +5,13 @@ cd tech-task.git
 
 ## Запуск сервера
 
-После клонирования, запустите Clickhouse с помощью Docker:
+После клонирования, запустите контейнер в Docker
 
-docker exec -it some-clickhouse-client clickhouse-client
+docker run -d --name clickhouse-server -p 8123:8123 -p 9000:9000 yandex/clickhouse-server
+
+Теперь запустите Clickhouse в Docker
+
+docker exec -it clickhouse-server clickhouse-client
 
 ## Установка пакетов
 
