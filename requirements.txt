@@ -1,4 +1,6 @@
 transformers
 clickhouse-connect
-torch torchvision torchaudio
+torch
+torchvision
+torchaudio
 pandas
