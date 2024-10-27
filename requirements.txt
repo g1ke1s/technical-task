@@ -1,0 +1,4 @@
+transformers
+clickhouse-connect
+torch torchvision torchaudio
+pandas
