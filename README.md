@@ -1,7 +1,7 @@
 # Чтобы клонировать репозиторий на ваш локальный компьютер, выполните команду:
 git clone https://github.com/g1ke1s/technical-task.git
 
-cd tech-task.git
+cd technical-task.git
 
 # Запуск сервера
 
